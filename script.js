@@ -21,7 +21,7 @@ START
         CALCULATE amountPerPerson = totalAmountWithTip / numberOfFriends
         
         PRINT "Varje person ska betala: ", amountPerPerson
-    ENDFUNCTION
+    END FUNCTION
 
     CALL FUNCTION "splitNota"
 
@@ -56,13 +56,13 @@ FUNCTION play()
         PRINT "Enter a new word: "
         SET newWord = INPUT
 
-        // Check if the new word is in our dictionary
+        // Checking if the new word is in our dictionary
         IF newWord IS NOT IN dictionary THEN
             PRINT "Oh no! The word is not in our dictionary. Try again!"
             CONTINUE
         END IF
 
-        // Check if the word has one different letter
+        // Checking if the word has one different letter from the previous word
         IF CALL FUNCTION isOneLetterApart(currentWord, newWord) THEN
             SET currentWord = newWord
         ELSE

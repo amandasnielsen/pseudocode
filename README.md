@@ -4,7 +4,7 @@ Amanda Strand Nielsen
 
 
 
-## Algorith Design fron FigJam
+## Algorithm Design fron FigJam
 
 
 ### Split the Nota
