@@ -14,3 +14,5 @@ Amanda Strand Nielsen
 
 
 ### Lewis Carroll Word Puzzle
+
+![Image Alt]((https://github.com/amandasnielsen/pseudocode/blob/main/Word%20puzzle.png?raw=true))
