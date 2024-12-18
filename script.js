@@ -66,7 +66,7 @@ FUNCTION play()
         IF CALL FUNCTION isOneLetterApart(currentWord, newWord) THEN
             SET currentWord = newWord
         ELSE
-            PRINT "The word can only have one different letter. Try again!"
+            PRINT "The word is only allowed to have one different letter. Try again!"
             CONTINUE
         END IF
 
